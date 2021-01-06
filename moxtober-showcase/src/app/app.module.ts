@@ -8,7 +8,7 @@ import { PAGES } from './pages';
 @NgModule({
   declarations: [
     AppComponent,
-    ...PAGES
+    ...PAGES,
   ],
   imports: [
     BrowserModule,

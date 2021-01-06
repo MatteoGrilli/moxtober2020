@@ -23,9 +23,9 @@
             <div class="Bullshit"><span *ngFor="let line of prompt.matt.bullshit">{{ line }}</span></div>
           </div>
           <div class="Card Matt" (click)="rotateCard('matt',i)" [ngClass]="{'Flipped' : clicks['matt'][i] % 2 !== 0 }">
-            <img *ngIf="clicks['matt'][i] < 2 || !prompt.matt.image2" class="CardFace Back Unselectable" src="/assets/card_back.png">
-            <img *ngIf="clicks['matt'][i] > 1 && prompt.matt.image2" class="CardFace Back Unselectable" [src]="prompt.matt.image2"> <!-- Shows up too early! Should wait until animation is finished-->
-            <img class="CardFace Front Unselectable" [src]="prompt.matt.image">
+            <img loading="lazy" *ngIf="clicks['matt'][i] < 2 || !prompt.matt.image2" class="CardFace Back Unselectable" src="/assets/card_back.png">
+            <img loading="lazy" *ngIf="clicks['matt'][i] > 1 && prompt.matt.image2" class="CardFace Back Unselectable" [src]="prompt.matt.image2"> <!-- Shows up too early! Should wait until animation is finished-->
+            <img loading="lazy" class="CardFace Front Unselectable" [src]="prompt.matt.image">
           </div>
         </div>
         <div class="Scene" >
@@ -35,9 +35,9 @@
             <div class="Bullshit"><span *ngFor="let line of prompt.albi.bullshit">{{ line }}</span></div>
           </div>
           <div class="Card Albi" (click)="rotateCard('albi',i)" [ngClass]="{'Flipped' : clicks['albi'][i] % 2 !== 0 }">
-            <img *ngIf="clicks['albi'][i] < 2 || !prompt.albi.image2" class="CardFace Back Unselectable" src="/assets/card_back.png">
-            <img *ngIf="clicks['albi'][i] > 1 && prompt.albi.image2" class="CardFace Back Unselectable" [src]="prompt.albi.image2">
-            <img class="CardFace Front Unselectable" [src]="prompt.albi.image">
+            <img loading="lazy" *ngIf="clicks['albi'][i] < 2 || !prompt.albi.image2" class="CardFace Back Unselectable" src="/assets/card_back.png">
+            <img loading="lazy" *ngIf="clicks['albi'][i] > 1 && prompt.albi.image2" class="CardFace Back Unselectable" [src]="prompt.albi.image2">
+            <img loading="lazy" class="CardFace Front Unselectable" [src]="prompt.albi.image">
           </div>
         </div>
       </div>

@@ -355,12 +355,33 @@ export const WIP_PROMPTS = [
   },
   {
     prompt: 'Rakish',
-    matt: { description: '' },
+    matt: {
+      description: [
+        `A 3 mana 3/2 that kinda draws you a card every time you attack. The idea was to scare your opponent by showing something you could do to
+        them if they blocked you, like a pump spell. In hindsight, I think I should have also given you a different reward for not casting the spell.
+        This iteration incentivizes you to play proactive spells (e.g. burn), that you were going to play anyway.`,
+      ],
+      bullshit: [
+        'Exiles bolt',
+        'Smiles',
+        'Taps 10',
+        'Casts Worldfire'
+      ],
+    },
     albi: { description: '' },
   },
   {
     prompt: 'Etching',
-    matt: { description: '' },
+    matt: {
+      description: [
+        `Rune mother on a land! The effect is rather simple, but I felt like it fit the prompt nicely. I did think about how aggressively costed this
+        effect could be, and I found that it could still be ok at basically 1 cmc. After all, the Mother of Runes and Giver of Runes both cost one mana,
+        and can repeatedly use this kind of effect.`,
+      ],
+      bullshit: [
+        'won\'t protect you from eldrazis'
+      ],
+    },
     albi: { description: '' },
   },
   {
