@@ -386,38 +386,86 @@ export const WIP_PROMPTS = [
   },
   {
     prompt: 'Flaunt',
-
-    matt: { description: '' },
+    matt: {
+      description: [
+        `Although I feel like the power level of this card is too low, this is easily one my favourites. Trading one mana for a 1/1 and a Food token
+        is somewhat a good trade, but thinking where this card could be played, I can't really find a home for it. Treasures don't need sacrifice outlets,
+        and there are other cards with better ratios for creating 1/1 tokens like Secure the Wastes.`,
+      ],
+      bullshit: [
+        'Put to good use all those smothering tithes',
+        'Gold ≠ Treasure, ofc'
+      ],
+    },
     albi: { description: '' },
   },
   {
     prompt: 'Obfuscate',
-
-    matt: { description: '' },
+    matt: {
+      description: [
+        `I took this prompt very loosely and created a card that offers all players a very difficult choice whose outcome is very difficult to anticipate.
+        The Will of the Council effect asks you take into consideration the choices the other players might make: is there a threat that requires an answer?
+        Is someone looking for a combo piece? Would you rather have a new card?`,
+      ],
+      bullshit: [
+        'Flip 4 lands',
+        'Vote keep to hide the shame'
+      ],
+    },
     albi: { description: '' },
   },
   {
     prompt: 'Chitinous',
-
-    matt: { description: '' },
+    matt: {
+      description: [
+        `The inspiration for this card came from the pokémon Shedinja. The first iteration had an activated ability that created two tokens, but the problem
+        with that was that I wanted to keep the stats of the token in line with those of the original piece, and in the end the cost was not worth the effect.
+        Also, a metamorphosis at instant speed felt weird.`,
+      ],
+      bullshit: [
+        'insect with bear statline'
+      ],
+    },
     albi: { description: '' },
   },
   {
     prompt: 'Meat',
-
-    matt: { description: '' },
+    matt: {
+      description: [
+        `For some reason, when I though "meat" I immediately wanted to make a flesh-dissolving ooze. After some iterations of a creature that would kill another
+        to get bigger, I decided to instead make this a spell and reference a card from Ravnica: Mystic Genesis. Should have made this rare: the referenced card
+        was also rare, and this is not that weak an effect.`,
+      ],
+      bullshit: [
+        'Next in the cycle: Dimir eavesdropping'
+      ],
+    },
     albi: { description: '' },
   },
   {
     prompt: 'Anxiety',
+    matt: {
+      description: [
+        `If the Apprentice can't practice her spellcasting, she'll spend the night studing and will be too tired the next day. Mechanically,
+        this card wants you to cast at least one proactive instant or sorcery during your turn. You could always attack to prevent her from tapping at the end of turn.
+        All in all, it's a 2 mana 3/3 not in white-green, with a downside.`,
+      ],
+      bullshit: [
 
-    matt: { description: '' },
+      ],
+    },
     albi: { description: '' },
   },
   {
     prompt: 'Brink',
+    matt: {
+      description: [
+        `Ajani is by far my favourite planeswalker, so I had to put him somewhere! This was originally called "Ajani, on the brink of Madness", hence the prompt.`,
+      ],
+      bullshit: [
 
-    matt: { description: '' },
+      ],
+    },
     albi: { description: '' },
   },
   {
